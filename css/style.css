@@ -15,3 +15,23 @@
 section {
     scroll-margin-top: 70px;
 }
+
+.project-card {
+    background: linear-gradient(180deg, #1d1d22, #101013);
+    border: 1px solid #343a40;
+}
+
+.project-card:hover {
+    border-color: #adb5bd;
+}
+
+.project-card summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.project-card img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
