@@ -1,0 +1,17 @@
+.nav-link {
+    color: #adb5bd;
+}
+
+.nav-link:hover {
+    color: #6c63ff;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+section {
+    scroll-margin-top: 70px;
+}

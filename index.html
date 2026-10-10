@@ -1,13 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <!-- Bootstrap ต้องมาก่อน style.css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
+    <header class="sticky-top bg-dark border-bottom border-secondary">
+        <nav class="container py-3">
+            <div class="row align-items-center g-2">
+
+                <div class="col-6 col-md-3 order-1">
+                    <a class="fw-bold fs-4 text-white text-decoration-none" href="#about">PORTFOLIO</a>
+                </div>
+
+                <div class="col-12 col-md-6 order-3 order-md-2">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Project</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 order-2 order-md-3 text-end">
+                    <a class="btn btn-outline-light btn-sm px-3"
+                        href="https://github.com/winnawat007-png/A2_6909617422">GitHub</a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="row align-items-center g-4">
+
+                    <div class="col-12 col-md-4 text-center">
+                        <img src="media/profile.jpg" alt="Profile photo" class="img-fluid rounded-circle profile-img">
+                    </div>
+
+                    <div class="col-12 col-md-8">
+                        <h1 class="display-5 fw-bold">Nawat Thumphon</h1>
+                        <p class="lead text-white-50">Hi my name is Win!!</p>
+                        <ul class="list-unstyled mb-0">
+                            <li><strong>Student ID:</strong> 6909617422</li>
+                            <li><strong>Program:</strong> ComSci Student</li>
+                            <li><strong>Interests:</strong> Web Design</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
 
